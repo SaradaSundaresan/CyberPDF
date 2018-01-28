@@ -31,14 +31,10 @@ bower_components
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
-/dist
-/tmp
 
 # Dependency directories
 node_modules/
 jspm_packages/
-/node_modules
-/bower_components
 
 # Typescript v1 declaration files
 typings/
@@ -60,17 +56,4 @@ typings/
 
 # dotenv environment variables file
 .env
-
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log*
-yarn-error.log
-testem.log
-
-# ember-try
-.node_modules.ember-try/
-bower.json.ember-try
-package.json.ember-try
 
