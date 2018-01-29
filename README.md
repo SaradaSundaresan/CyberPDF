@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone `[https://github.com/csoinatl/CyberPDF](https://github.com/csoinatl/CyberPDF)
+* `git clone [https://github.com/csoinatl/CyberPDF](https://github.com/csoinatl/CyberPDF)`
 * `cd CyberPDF`
 * `npm install`
 
