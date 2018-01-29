@@ -1,5 +1,46 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<html>
+    <head lang="en">
+        <meta charset="en">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <title>CyberPDF</title>
 
-{{outlet}}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <style>
+            .jumbotron1{
+                background-color:#2E2D88;
+                color:white;
+            }
+            
+            .jumbotron2{
+                background-color:aqua;
+                color:black;
+            }
+            /* Adds borders for tabs */
+            .nav-tabs{
+                margin-bottom: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+        <div class="page-header">
+             <h1>CyberPDF</h1>
+        </div>
+            <div class="nav-tabs">
+                <a href="http://localhost:4200/homepage" class="btn btn-default btn-lg" role="button">Home</a>
+                <a href="http://localhost:4200/faq" class="btn btn-default btn-lg" role="button">FAQ</a>
+                <a href="http://localhost:4200/bugs" class="btn btn-default btn-lg" role="button">Bugs</a>
+                <a href="http://localhost:4200/contact" class="btn btn-default btn-lg" role="button">Contact</a>
+            </div>
+            </div>
+        </div>
+        {{outlet}}
+        </div>
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    </body>
+</html>
